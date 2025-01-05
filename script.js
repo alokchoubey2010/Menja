@@ -2054,7 +2054,7 @@ function setupCanvases() {
 		}
 		// - cap minimum framerate to 15fps[~68ms] (assuming 60fps[~17ms] as 'normal')
 		else if (frameTime > 68) {
-			frameTime = 68;
+			frameTime = 120;
 		}
 
 		const halfW = width / 2;
